@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.UUID;
 
 @Controller
-
+@RequestMapping("/design")
 public class DesignPizzaController {
 
     private PizzaRepository pizzaRepository;

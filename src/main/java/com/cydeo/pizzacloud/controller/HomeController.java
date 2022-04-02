@@ -13,4 +13,10 @@ public class HomeController {
 
         return "/home";
     }
+
+    @GetMapping("/design")
+    public String goDesign(){
+
+        return "design";
+    }
 }

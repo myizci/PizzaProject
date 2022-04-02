@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import java.util.ArrayList;
 import java.util.List;
 
-@Controller
+@Component
 public class PizzaRepository {
 
     private static List<Pizza> pizzaList = new ArrayList<>();
